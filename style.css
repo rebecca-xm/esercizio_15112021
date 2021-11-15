@@ -1,0 +1,36 @@
+/* BODY */
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+hr {
+    border: 0;
+    background-color: #ccc;
+    height: 1px;
+    margin: 20px 0
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#add {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    transition: all 0.4s linear;
+}
+
+#add:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    border-color: cadetblue;
+}
